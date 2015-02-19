@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = git@github.com:Stampfli/oregon-web-design-dist.git
+	branch = gh-pages
