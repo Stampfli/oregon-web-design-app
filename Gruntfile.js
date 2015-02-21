@@ -33,8 +33,8 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all', '!scripts/github.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.js', '!scripts/github.js'],
+        tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
         }
